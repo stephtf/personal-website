@@ -185,7 +185,7 @@ div.container {
     max-width: 950px;
 }
 
-/* responsive: tablet size*/
+/* responsive: tablet size */
 @media screen and (max-width: 1125px) {   
 .logo-header {
     max-width: 300px;
@@ -230,9 +230,15 @@ div.container {
 
 .logo-header {
     max-width: 250px;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-left: -30px;
     margin-bottom: 60px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 .projects {    
@@ -246,23 +252,18 @@ div.container {
 .icons-container img {
     max-width: 20px;
     max-height: 20px;
-    margin-right: 0px;
 }
 
 .projects.active {
     display: flex;
-    flex-direction: column;
-    margin: 0;
-    margin-left: -80px;
+    flex-direction: column; 
     font-size: 20px;
-    align-items: center;
-    padding-top: 0px;
 }  
 
 .icons-container.active {
     display: flex;
-    margin-top: 50px;
-    margin-left: -80px;
+    /* margin-top: 50px;
+    margin-left: -80px; */
 }
 
 .container.active {
