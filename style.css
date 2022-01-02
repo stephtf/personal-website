@@ -47,8 +47,18 @@
 }
 
 .thumbnails {
-    max-width: 350px;
+    max-width: 345px;
+    max-height: 345px;
 }
+
+
+.project-titles {
+    font-size: 25px; 
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
 
 /* document elements */
 body {
@@ -115,7 +125,10 @@ header {
     max-width: 350px;
     height: 100%;
     object-fit: cover;
-    flex: 4;
+}
+
+a.logo-header {
+    max-height: 50px;
 }
 
 .logo-footer {
@@ -204,6 +217,12 @@ nav {
     max-width: 20px;
     max-height: 20px;
 }
+
+.thumbnails {
+    max-width: 280px;
+    max-height: 280px;
+}
+
 }
 
 /* responsive: large phone */
@@ -262,8 +281,6 @@ header {
 
 .icons-container.active {
     display: flex;
-    /* margin-top: 50px;
-    margin-left: -80px; */
 }
 
 .container.active {
@@ -278,7 +295,18 @@ header {
     }
 
     .portrait {
-        max-width: 200px;
+        max-width: 280px;
+    }
+
+    main {
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+
+    .footer-row {
+        max-width: 100px;
+        justify-content: center;
     }
 
 }
+
