@@ -273,6 +273,10 @@ header {
 
 /* responsive: small phone */
 @media screen and (max-width: 450px) {
+    .logo-header {
+        max-width: 200px;
+    }
+
     .portrait {
         max-width: 200px;
     }
