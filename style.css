@@ -280,16 +280,5 @@ header {
     .portrait {
         max-width: 200px;
     }
-   
-    .hamburger {
-        display: flex; 
-        top: 52px;
-        width: 22px;
-        height: 17px;
-    }
-    
-    .hamburger .bar {
-        height: 2px;
-    }
 
 }
