@@ -122,13 +122,13 @@ header {
 }
 
 .logo-header {
-    max-width: 350px;
+    max-width: 400px;
     height: 100%;
     object-fit: cover;
 }
 
 a.logo-header {
-    max-height: 50px;
+    max-height: 125px;
 }
 
 .logo-footer {
@@ -201,7 +201,10 @@ div.container {
 /* responsive: tablet size */
 @media screen and (max-width: 1125px) {   
 .logo-header {
-    max-width: 300px;
+    max-width: 350px;
+    margin-left: -5px;
+    margin-top: 5px;
+    
 }
 
 nav {
@@ -248,10 +251,10 @@ div.container {
 }
 
 .logo-header {
-    max-width: 250px;
-    margin-top: 20px;
-    margin-left: -30px;
-    margin-bottom: 60px;
+    max-width: 400px;
+    margin-top: 30px;
+    margin-left: 0px;
+    margin-bottom: 30px;
 }
 
 header {
@@ -291,7 +294,7 @@ header {
 /* responsive: small phone */
 @media screen and (max-width: 450px) {
     .logo-header {
-        max-width: 200px;
+        max-width: 250px;
     }
 
     .portrait {
