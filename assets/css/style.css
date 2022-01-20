@@ -23,6 +23,12 @@
 
 .bold-links {
     text-decoration: underline;
+    font-weight: bold;
+
+}
+
+.weblink-style {
+    display: block;
 }
 
 .links:hover {
@@ -124,6 +130,7 @@ button:hover {
     border-color: #ff9999;
     color: white;
 }
+
 
 /* project pages to create a flex row */
 .project-layout {
