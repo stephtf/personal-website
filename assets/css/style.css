@@ -374,13 +374,13 @@ header {
     display: none;
 }
 
-
 }
 
 /* responsive: small phone */
 @media screen and (max-width: 450px) {
     .logo-header {
-        max-width: 250px;
+        max-width: 100%;
+        height: auto;
     }
 
     .portrait {
