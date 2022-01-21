@@ -320,15 +320,19 @@ nav {
 }
 
 .content-box {
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
     margin-top: 0px;
 }
 
+.content-box.active {
+    display: none;
+}
+
+
 #urban-thumb {
 align-items: center;
 }
-
 
 .logo-header {
     max-width: 400px;
@@ -366,9 +370,11 @@ header {
     display: flex;
 }
 
-.content-box.active {
+.title.active {
     display: none;
 }
+
+
 }
 
 /* responsive: small phone */
