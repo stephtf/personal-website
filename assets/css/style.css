@@ -322,6 +322,7 @@ nav {
 .content-box {
     flex-direction: column-reverse;
     align-items: center;
+    justify-content: center;
     margin-top: 0px;
 }
 
@@ -390,6 +391,10 @@ header {
 
     .portrait {
         max-width: 280px;
+    }
+
+    .project-hero {
+        max-width: 100%;
     }
 
     main {
