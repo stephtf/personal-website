@@ -6,7 +6,7 @@ var socialIcons = document.getElementsByClassName("icons-container")[0]
 
 var mainContent = document.getElementsByClassName("content-box")[0]
 var title = document.getElementsByClassName("title")[0]
-
+// var work = document.getElementsByClassName("work-column")[0]
 
 
 hamburger.addEventListener("click",() => {
@@ -14,5 +14,6 @@ hamburger.addEventListener("click",() => {
     socialIcons.classList.toggle("active");
     mainContent.classList.toggle("active");
     title.classList.toggle("active");
+    
 }) 
 

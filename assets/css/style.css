@@ -345,9 +345,13 @@ nav {
 align-items: center;
 }
 
-#work-column {
+.work-column {
     display: flex; 
     flex-direction: column;
+}
+
+.work-column.active {
+    display: none; 
 }
 
 .logo-header {
