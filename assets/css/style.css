@@ -316,6 +316,7 @@ nav {
      
 img.project-hero {
     max-width: 100%;
+    max-height: auto;
     margin-left: 0;
     margin-bottom: 30px;
 }
