@@ -430,7 +430,6 @@ header {
 
     img.project-hero {
         max-width: 375px;
-        height: 100%;
         object-fit: contain;
         margin-left: 0;
         margin-bottom: 30px;
