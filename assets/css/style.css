@@ -424,6 +424,11 @@ header {
         margin-right: 35px;
     }
 
+  .protext-container {
+      max-width: 350px;
+      margin-left: 15px;
+    }
+
     .footer-row {
         max-width: 100px;
         justify-content: center;
