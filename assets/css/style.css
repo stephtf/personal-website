@@ -280,7 +280,6 @@ footer {
     max-width: 350px;
     margin-left: -5px;
     margin-top: 5px;
-    
 }
 
 nav {
@@ -343,6 +342,11 @@ nav {
 
 #urban-thumb {
 align-items: center;
+}
+
+#work-column {
+    display: flex; 
+    flex-direction: column;
 }
 
 .logo-header {
