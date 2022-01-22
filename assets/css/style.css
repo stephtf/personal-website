@@ -24,6 +24,7 @@
 .bold-links {
     text-decoration: underline;
     font-weight: bold;
+    word-wrap:break-word;
 
 }
 
