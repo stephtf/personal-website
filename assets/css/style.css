@@ -314,7 +314,7 @@ nav {
     
 }
 
-
+}
 
 
 /* responsive: large phone */
@@ -430,6 +430,7 @@ header {
 
     img.project-hero {
         max-width: 100%;
+        max-height: 100%;
         margin-left: 0;
         margin-bottom: 30px;
     }
@@ -452,4 +453,3 @@ header {
     }
 
 }
-
