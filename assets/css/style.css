@@ -62,6 +62,11 @@
     max-height: 345px;
 }
 
+.thumb-box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .project-hero {
     max-width: 600px;
     height: 100%;
@@ -199,6 +204,7 @@ footer {
     display: flex;
     flex-direction: column;
     margin-right: 20px;
+
 }
 
 .spacer {
@@ -318,7 +324,7 @@ nav {
 
 
 /* responsive: large phone */
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1249px) {
 .portrait {
     margin-top: 0;
     margin-left: 0;
