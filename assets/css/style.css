@@ -62,6 +62,7 @@
     max-height: 345px;
 }
 
+
 .thumb-box {
     display: flex;
     flex-wrap: wrap;
@@ -357,10 +358,6 @@ nav {
     display: none;
 }
 
-
-#urban-thumb {
-align-items: center;
-}
 
 .work-column {
     display: flex; 
