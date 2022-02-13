@@ -280,12 +280,12 @@ footer {
 }
 
 
-/* responsive: tablet size */
-@media screen and (max-width: 1300px) {   
+/* responsive: laptop */
+@media screen and (max-width: 1200px) {   
 
 
 .logo-header {
-    max-width: 350px;
+    max-width: 325px;
     margin-left: -5px;
     margin-top: 5px;
 }
@@ -302,7 +302,7 @@ img.project-hero {
 }
 
 nav {
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .menu-items {    
@@ -324,8 +324,9 @@ nav {
 }
 
 
-/* responsive: large phone */
-@media screen and (max-width: 1249px) {
+
+/* responsive: tablet */
+@media screen and (max-width: 834px) {
 .portrait {
     margin-top: 0;
     margin-left: 0;
@@ -410,8 +411,8 @@ header {
 
 }
 
-/* responsive: small phone */
-@media screen and (max-width: 450px) {
+/* responsive: mobile */
+@media screen and (max-width: 576px) {
     .logo-header {
         max-width: 175%;
         display: flex;
